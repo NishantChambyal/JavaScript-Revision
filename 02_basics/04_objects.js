@@ -60,14 +60,43 @@ const user = [
 
 // console.log(user[0].name);
 
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));  // extract the keys from objects and store it in array
-// most important {object.keys()}
-console.log(Object.values(tinderUser))
-console.log(Object.entries(tinderUser)) // extact the shallow coppies from object and put key value arrar in single array it means one key value pair has inside the own array
+// console.log(Object.keys(tinderUser));  // extract the keys from objects and store it in array
+// // most important {object.keys()}
+// console.log(Object.values(tinderUser))
+// console.log(Object.entries(tinderUser)) // extact the shallow coppies from object and put key value arrar in single array it means one key value pair has inside the own array
 
-console.log(tinderUser.hasOwnProperty("isLoggedIn"));
+// console.log(tinderUser.hasOwnProperty("isLoggedIn"));
+
+
+const course = {
+  course: "js in himdi",
+  price: "999",
+  courseTeacher: "hitesh"
+}
+
+// course.courseTeacher
+const {courseTeacher: instructor} = course
+
+console.log(instructor);
+
+// {
+//   name: "hitesh",
+//   cousename: "js in Hindi",
+//   price: "free"
+// }
+
+[
+  {},
+  {},
+  {},
+  {},
+  {},
+  {}
+]
+
+
 
 
 
